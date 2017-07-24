@@ -1,10 +1,10 @@
 ﻿import React from 'react';
 import ReactDOM from 'react-dom';
 
-class HelloWorld extends React.Component {
+class TagLine extends React.Component {
   render() {
-    return <h1>Hello World!</h1>
+      return <p>Find music to be passionate about</p>
   }
 }
 
-ReactDOM.render(<HelloWorld/>, document.getElementById('hello-world'));
+ReactDOM.render(<TagLine/>, document.getElementById('tag-line'));

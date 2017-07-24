@@ -21,4 +21,5 @@ Complete the following two user stories:
 * The visual design is all up to you, but do not spend too much time on it, as long as it works. 
 * Bootstrap is already included in the solution if you want it.
 * Feel free to structure the solution projects and subfolders as you see fit.
-* The solution is .net MVC but feel free to extend it in whatever language you are comfortable with.
+* The solution is .net MVC but feel free to extend it in whatever language you are comfortable with. 
+* React is already setup in the solution under ./Scripts/react-composer-app if you want it.

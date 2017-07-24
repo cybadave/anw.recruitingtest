@@ -9790,30 +9790,30 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var HelloWorld = function (_React$Component) {
-  _inherits(HelloWorld, _React$Component);
+var TagLine = function (_React$Component) {
+  _inherits(TagLine, _React$Component);
 
-  function HelloWorld() {
-    _classCallCheck(this, HelloWorld);
+  function TagLine() {
+    _classCallCheck(this, TagLine);
 
-    return _possibleConstructorReturn(this, (HelloWorld.__proto__ || Object.getPrototypeOf(HelloWorld)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (TagLine.__proto__ || Object.getPrototypeOf(TagLine)).apply(this, arguments));
   }
 
-  _createClass(HelloWorld, [{
+  _createClass(TagLine, [{
     key: 'render',
     value: function render() {
       return _react2.default.createElement(
-        'h1',
+        'p',
         null,
-        'Hello World!'
+        'Find music to be passionate about'
       );
     }
   }]);
 
-  return HelloWorld;
+  return TagLine;
 }(_react2.default.Component);
 
-_reactDom2.default.render(_react2.default.createElement(HelloWorld, null), document.getElementById('hello-world'));
+_reactDom2.default.render(_react2.default.createElement(TagLine, null), document.getElementById('tag-line'));
 
 /***/ }),
 /* 84 */
