@@ -1,4 +1,14 @@
-﻿++Objectives:++
+﻿++Notes to the reviewer++
+
+This project represents a next-best solution.
+
+First prize would have been a https://reactjs.net/ solution with server-side rendering,
+but my c# proved too rusty to tackle bundling via Cassette.
+
+Allowing .Net to pass the data to react via a serializer is the next-best option in terms of performance for our 
+thousands of users. (Only one server call per user session to browse the entire data set)
+
+++Objectives:++
 
 Complete the following two user stories:
 
