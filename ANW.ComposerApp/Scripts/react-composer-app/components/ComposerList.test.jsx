@@ -15,7 +15,7 @@ describe('The Composer List',() => {
   });
 
   it('Shows their full names', () => {
-    expect(result.node.props.children[0].props.children).toEqual('Bob Smith Baker');
+    expect(result.node.props.children[0].props.children.props.children).toEqual('Bob Smith Baker');
   });
 
   it('Shows a total number of composers', () => {
@@ -23,8 +23,7 @@ describe('The Composer List',() => {
   });
 
   it('Has a mechanism to navigate to the composerInfo view', () => {
-    result.find('li').first().simulate('click');
-    expect(flag).toEqual(true);
+    expect(result.node.props.children[0].props.to).toEqual('/info/1');
   });
 });
 
