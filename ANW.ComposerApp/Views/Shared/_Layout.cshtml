@@ -35,6 +35,10 @@
         </footer>
     </div>
 
+    <script>
+    var composers = @JavaScriptConvert.SerializeObject(ComposerRepo.Composers);
+    </script>
+
     <script src="~/Scripts/react-composer-app/compiled/bundle.js"></script>
 
 @Scripts.Render("~/bundles/jquery")
